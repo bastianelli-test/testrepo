@@ -1,0 +1,10 @@
+dependencies:
+  override: []
+
+review:
+  checklist: []
+
+deploy:
+  override:
+    - ./deploy.sh:
+        timeout: 1800
